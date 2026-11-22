@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net11.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>DeviceMonitor.Application</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DeviceMonitor.Core\DeviceMonitor.Core.csproj" />
+    <ProjectReference Include="..\DeviceMonitor.Communication\DeviceMonitor.Communication.csproj" />
+    <ProjectReference Include="..\DeviceMonitor.Alarms\DeviceMonitor.Alarms.csproj" />
+  </ItemGroup>
+
+</Project>

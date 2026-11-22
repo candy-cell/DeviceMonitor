@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net11.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>DeviceMonitor.Shell</RootNamespace>
+    <AssemblyName>DeviceMonitor.Shell</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Prism.DryIoc" Version="8.1.97" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DeviceMonitor.Core\DeviceMonitor.Core.csproj" />
+    <ProjectReference Include="..\DeviceMonitor.Communication\DeviceMonitor.Communication.csproj" />
+    <ProjectReference Include="..\DeviceMonitor.Storage\DeviceMonitor.Storage.csproj" />
+    <ProjectReference Include="..\DeviceMonitor.Alarms\DeviceMonitor.Alarms.csproj" />
+    <ProjectReference Include="..\DeviceMonitor.Application\DeviceMonitor.Application.csproj" />
+  </ItemGroup>
+
+</Project>

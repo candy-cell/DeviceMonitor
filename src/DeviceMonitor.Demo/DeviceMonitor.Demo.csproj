@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net11.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>DeviceMonitor.Demo</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DeviceMonitor.Storage\DeviceMonitor.Storage.csproj" />
+    <ProjectReference Include="..\DeviceMonitor.Communication\DeviceMonitor.Communication.csproj" />
+    <ProjectReference Include="..\DeviceMonitor.Alarms\DeviceMonitor.Alarms.csproj" />
+    <ProjectReference Include="..\DeviceMonitor.Application\DeviceMonitor.Application.csproj" />
+  </ItemGroup>
+
+</Project>

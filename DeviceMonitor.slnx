@@ -1,0 +1,11 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/DeviceMonitor.Core/DeviceMonitor.Core.csproj" />
+    <Project Path="src/DeviceMonitor.Communication/DeviceMonitor.Communication.csproj" />
+    <Project Path="src/DeviceMonitor.Storage/DeviceMonitor.Storage.csproj" />
+    <Project Path="src/DeviceMonitor.Alarms/DeviceMonitor.Alarms.csproj" />
+    <Project Path="src/DeviceMonitor.Application/DeviceMonitor.Application.csproj" />
+    <Project Path="src/DeviceMonitor.Demo/DeviceMonitor.Demo.csproj" />
+    <Project Path="src/DeviceMonitor.Shell/DeviceMonitor.Shell.csproj" />
+  </Folder>
+</Solution>
